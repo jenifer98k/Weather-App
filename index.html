@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="style.css"></link>
+</head>
+<body>
+  <div class="nav-con">
+      <div class="nav-bar" >
+<img src="../Icon/cloudlogo.png"  width="250px" height="200px">
+<div class="nav">
+   <div class="nav1">
+    <li>Home</li>
+    <li>Map</li>
+    <li>News</li>
+    <li>Contact</li>
+   <li><button>Get Update</button></li></div> 
+</div><!--nav end-->
+      </div><!--nav-bar end-->
+      </div> <!------nav-con-end------>
+
+<div class="container">
+    <div class="interface">
+<h1>Different Kinds of Weather</h1>
+<h1>inside of 24/7 hours.</h1>
+<div class="news">
+    <p> you too often some vary culture human</p>
+    <p>business down certaim rln shuab </p>
+</div><!-- news end-->
+<div id="container1">
+    <div id="search" class="ser">
+  
+        <i class="fas fa-search"></i>
+    </div>
+    <div class="ser">
+        <input type="text" id="place" placeholder="Search City Place">
+    </div>
+      <div class="ser">
+        <button onclick="weather(document.querySelector('#place').value)" >Get Update</button>
+      </div> 
+</div><!--container1 end-->
+<p>Best way to know your city</p>   
+  </div><!--interface end-->
+ 
+    <div class="info">
+            <div class="header">
+            <h2 class="headlogo">Today Weather Report</h2>
+            </div><!--header end-->
+            <div class="report">
+                <img src="../Icon/NA.png" id="icon" width="200px" height="200px">
+                <span id=description></span>
+            </div><!--report end-->
+            <div class="output">
+              <div class="digit">
+                  <h1 id="deg">0&deg;C</h1>
+                  <span id="min">0&deg;C</span>
+                  <span id="max">/ 0&deg;C</span>
+              </div><!--digit end-->
+              <div class="list_info">
+                  <h3 id="wind">0 mph</h3>
+                  <h3 id="humidity">0 %</h3>
+         </div><!--list_info end-->
+         </div><!--output end-->
+         <div class="convertor">
+            <span id="celsius" onclick="con('celsius')">&deg;C</span>
+            <span id="fahrenheit" onclick="con('fahrenheit')">&deg;F</span>
+        </div><!--covertor end-->  
+    </div><!--info end-->
+</div><!--container end-->
+<script src="https://kit.fontawesome.com/51332ef2eb.js" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/4464fd4286.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-image: url("https://www.fonewalls.com/wp-content/uploads/Air-Force-Dark-Blue-Solid-Color-Background-Wallpaper-for-Mobile-Phone-300x533.png");
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.nav-bar img{
+    margin: 10px 0px 0px 80px;
+    padding: 0px;
+    cursor:pointer;
+  
+}
+
+.nav{
+    margin-top: -150px;
+    padding: 0px;
+  
+}
+
+.nav1{
+  
+    margin:10px 0px 0px 580px;
+} 
+
+.nav li{
+    display: inline;
+    margin: 0px 0 0 50px;
+    font-size: 18px;
+    cursor: pointer;
+   
+}
+.nav button{
+    border:none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 18px;
+    color: white;
+    background-image: linear-gradient(90deg,rgb(170, 52, 238), rgb(114, 114, 230));
+    box-shadow: 1px 1px 2px grey;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+}
+.interface h1{
+    font-weight: normal;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    font-size: 35px;
+}
+.news{
+    margin:50px 0 50px 0 ;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+.interface p{
+    letter-spacing: .5px;
+    font-size: 20px;
+}
+#container1{
+    display: flex;
+    position: relative;
+  
+}
+#ser{
+    position: absolute;
+   
+}
+#search{
+padding: 20px;
+background-color:  rgb(143, 143, 206);
+border-radius: 5px 0 0 5px;
+margin-right: -10px;
+}
+i{
+    background-color:  rgb(143, 143, 206);
+    color: white;
+  font-size:20px ;
+}
+.interface input{
+
+    border: none;
+    outline: none;
+    border-radius: 5px 0 0 5px;
+    padding: 20px 20px;
+    font-size: 20px;
+  background-color: rgb(143, 143, 206);
+    letter-spacing: 1px;
+    color: white;
+  
+}
+::placeholder{
+    font-size: 20px;
+    color: white;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+   
+}
+.interface button{
+  margin-left: -10px;
+    border: none;
+    outline: none;
+    padding: 20px 50px;
+    border-radius: 0 5px 5px 0;
+    font-size: 20px;
+    color:white;
+    background-image: linear-gradient(to right,rgb(120, 66, 207),rgb(16, 80, 175));
+    cursor: pointer;
+}
+.interface button:hover{
+    background-image: linear-gradient(to right,rgb(39, 39, 139),rgb(89, 38, 136));
+}
+.info{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ70bEv-leppd9VbjgUg-KLPDpWIpY-zZ-3vg&usqp=CAU");
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 100px;
+   width: 400px;
+   height: 500px;
+   margin-top:-10px ;
+   box-shadow: 2px 3px 10px rgb(37, 23, 49) ;
+}
+.info .header{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgljUeZXEux1TGZ7TemoeWYDv5uxS0LkHyuSlye1Szyx3vMZI-9wh8cqgDOLb4Xv8n3Ps&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 20px;
+}
+
+ .header h1{
+    margin:35px 0 10px 0;
+    text-indent: 20px;
+   
+}
+
+ .header h1::before{
+    content: '';
+    position: absolute;
+    top:150px;
+    margin-left: -25px;
+    background-image: url('./Img/c.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 60px;
+}
+.info .report{
+    text-align: center;
+}
+#description{
+    font-size: 20px;
+    text-transform: capitalize;
+    position: relative;
+    top:-50px;
+    text-shadow: 1px 1px 2px black;
+}
+.info .output{
+display: inline-flex;
+}
+.digit{
+    margin-left: 100px;
+}
+.digit h1{
+text-shadow:1px 1px 3px black ;
+}
+.digit span{
+    font-size: 18px;
+}
+.list_info{
+    margin: 10px 0 0 150px;
+}
+#wind::before{
+    content: '';
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 245px;
+    background-repeat: no-repeat;
+    margin-top:-5px ;
+    background-image: url('../Img/wind-logo.png') ;
+    background-size: contain;
+
+}
+#humidity::before{
+    content: '';
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-repeat: no-repeat;
+    right: 250px;
+    margin-top:-5px ;
+    background-image: url('../Img/cel-logo.png') ;
+    background-size: contain;
+}
+.convertor{
+    text-align:center ;
+    margin-top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+   
+}
+.container::before{
+content: '';
+position: absolute;
+top: 100px;
+left: 200px;
+border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+width: 300px;
+height: 300px;
+background-color: rgb(255,3,192);
+background-image: linear-gradient(90deg,rgba(255,3,192,1)0%,rgba(44,126,255,1)97%);
+z-index: -1;
+}
